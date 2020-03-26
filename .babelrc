@@ -1,0 +1,11 @@
+// presets, targets, and nodes are object which are libraries to turn JSX files to ES6 files
+{
+    "presets":[
+        ["@babel/preset-env", {
+            "targets":{
+                "node":"current"
+            }
+        }],
+        "@babel/preset-react"
+    ]
+}
